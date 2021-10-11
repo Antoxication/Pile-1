@@ -124,8 +124,7 @@ public class Pile {
 			System.out.println("l'entier " + aEmpiler + " a été empilé !\n");
 
 			/*
-			 * si on rencontre une erreur d'indexage dûe à une pile pleine,
-			 * on propage l'exception et affiche un message d'erreur indiquant
+			 * si on rencontre une erreur d'indexage dûe
 			 * qu'une exception s'est produite (ce qui n'arrête pas le programme)
 			 */
 		} catch (ArrayIndexOutOfBoundsException erreurEmpilement) {
